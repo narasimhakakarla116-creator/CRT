@@ -1,8 +1,5 @@
 def Reverse_String(s: str) -> str:
-   rev=""
-   for i in s:
-       rev=i+rev
-   return rev    
+   return s[::-1] 
 
 
 if __name__ == '__main__':

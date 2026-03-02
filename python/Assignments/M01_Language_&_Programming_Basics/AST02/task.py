@@ -1,12 +1,13 @@
 def even_odd(n: int) -> str:
    if n%2!=0:
-      return "weired"
+       return "Weird"
    elif 2<=n<=5:
-      return "Not weired"
+       return "Not Weird"
    elif 6<=n<=20:
-      return "weired"
+       return "Weird"
    else:
-      return "Not weired"
+       return "Not Weird"
+       
 
 
 if __name__ == '__main__':
